@@ -105,4 +105,11 @@
             android:fragment="com.dora.settings.fragments.MiscSettings"
             android:icon="@drawable/ic_settings_miscs"/>
 
+        <!-- Monet Engine -->
+        <Preference
+            android:key="monet_engine"
+            android:icon="@drawable/ic_themes"
+            android:title="@string/monet_title"
+            android:summary="@string/monet_summary"
+            android:fragment="com.dora.utils.MonetSettings" />
 </PreferenceScreen>
