@@ -17,6 +17,12 @@
     android:key="monet_settings"
     android:title="@string/monet_title">
 
+    <com.dora.settings.preferences.SecureSettingSwitchPreference
+        android:key="system_black_theme"
+        android:title="@string/system_black_theme_title"
+        android:summary="@string/system_black_theme_summary"
+        android:defaultValue="false" />
+
     <com.dora.support.preferences.SecureSettingSwitchPreference
         android:key="monet_engine_custom_color"
         android:title="@string/monet_engine_custom_color_title"
