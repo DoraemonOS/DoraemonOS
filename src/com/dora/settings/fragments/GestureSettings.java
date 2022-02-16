@@ -18,7 +18,7 @@ public class GestureSettings extends SettingsPreferenceFragment {
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.DORA;
+        return MetricsProto.MetricsEvent.DORA_SETTINGS;
     }
 
 }
